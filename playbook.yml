@@ -1,0 +1,9 @@
+- hosts: all
+  gather_facts: false
+
+  tasks:
+
+  - ping: 
+
+  - pause:
+      minutes: 10
